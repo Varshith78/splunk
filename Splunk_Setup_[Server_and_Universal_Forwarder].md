@@ -135,3 +135,10 @@ index=main
 
 ![Splunk Enterprise dashboard showing ingested events from the Ubuntu forwarder](images/setup/6_splunk_dashboard.png)
 
+
+# References
+
+[1] [Splunk Universal Forwarder Download Page](https://www.splunk.com/en_us/download/universal-forwarder.html?locale=en_us)  
+
+[2] [Splunk Enterprise Download Page](https://www.splunk.com/en_us/download/splunk-enterprise.html) 
+
