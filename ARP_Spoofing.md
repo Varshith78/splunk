@@ -103,7 +103,7 @@ In the output below, both `10.155.14.121` (attacker) and `10.155.14.37` (gateway
 
 ## 6. SIEM Detection with Splunk - ARP Audit Logs
 
-Splunk is used on the to ingest Linux audit logs. Searching for `arp` in the index shows audit events where the `arp` binary was executed, this shows that even though the MAC address of the gateway has been altered there are no logs which leads to a stealth arp spoofing.
+Splunk is used to ingest Linux audit logs. Searching for arp in the index displays audit events indicating that the arp binary was executed. However, even though the MAC address of the gateway was altered during the attack, no logs provide direct information about the ARP table manipulation. This demonstrates that ARP spoofing can remain relatively stealthy without specialized monitoring tools such as arpwatch.
 
 **Splunk Search:**
 ```
